@@ -3,7 +3,7 @@
 A from scratch implementation of voice activity detection using Pytorch.
 
 
-You will find in this folder the code to reproduce all the results presented in the technical report.
+You will find in this folder the code to reproduce all the results presented in the `vad_technical_report.pdf` file.
 
 
 ## VAD inferences
@@ -26,6 +26,6 @@ Train and evaluation are performed by the `traintest.py` script.
 python traintest.py <data_folder> <save_folder>
 ```
 
-Use can control different parameters use the `--help` flag to see the complete list.
+User can control different parameters, use the `--help` flag to see the complete list.
 
 > For normalization, mean and standard deviation can be compute by calling the `utils.py` module as a standolone script.
