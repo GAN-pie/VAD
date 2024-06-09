@@ -315,7 +315,7 @@ if __name__ == "__main__":
     plt.xlabel("Audio frames")
     plt.ylabel("Probability of speech")
     plt.legend(
-        ["Audio waveform", "Groundthrue", "Model prediction"],
+        ["Audio waveform", "Groundtruth", "Model prediction"],
         loc="lower right"
     )
 

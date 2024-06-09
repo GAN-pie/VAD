@@ -7,6 +7,7 @@
 set -e
 
 ROOT="${HOME}/Bureau/challenge_sonos/fromscratch_vad"
+
 VAD_DATA_FOLDER="${ROOT}/../vad_data"
 METADATA_FOLDER="${ROOT}/metadata"
 
@@ -31,14 +32,14 @@ fi
 # have been executed.
 MEAN_NORM=-5.474683
 VAR_NORM=3.6145234
-#MEAN_NORM=-0.96911
-#VAR_NORM=1.3280091
+# MEAN_NORM=-0.96911
+# VAR_NORM=1.3280091
 
 TARGET_SIZE=1536
 NUM_MEL=40
 
 BATCH_SIZE=2
-MAX_EPOCH=50
+MAX_EPOCH=100
 LR_INIT=1.0
 
 EXP_FOLDER="${ROOT}/runs/base-1d-t${TARGET_SIZE}-b${BATCH_SIZE}-e${MAX_EPOCH}-lr${LR_INIT}"
