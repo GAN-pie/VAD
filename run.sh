@@ -6,7 +6,7 @@
 
 set -e
 
-ROOT="${HOME}/Bureau/challenge_sonos/fromscratch_vad"
+ROOT="${HOME}/fromscratch_vad"
 
 VAD_DATA_FOLDER="${ROOT}/../vad_data"
 METADATA_FOLDER="${ROOT}/metadata"
